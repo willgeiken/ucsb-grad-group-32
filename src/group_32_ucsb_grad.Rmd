@@ -1,0 +1,17 @@
+---
+title: "Group 32 UCSB domestic grad enrollment"
+author: "Will Geiken & Lauren Skube"
+date: "11/24/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+```
+
+```{r}
+ucsb_grad <- read.csv(here("data", "ucsb_grad_data.csv"))
+```
+
